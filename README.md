@@ -1,16 +1,20 @@
-[![](https://img.shields.io/pypi/pyversions/recursion-detect.svg?longCache=True)](https://pypi.org/pypi/recursion-detect/)
-[![](https://img.shields.io/pypi/v/recursion-detect.svg?maxAge=3600)](https://pypi.org/pypi/recursion-detect/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/recursion-detect.svg?longCache=True)](https://pypi.org/project/recursion-detect/)
+[![](https://img.shields.io/pypi/v/recursion-detect.svg?maxAge=3600)](https://pypi.org/project/recursion-detect/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/recursion-detect.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/recursion-detect.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install recursion-detect
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`recursion_detect.depth()`|return recursion depth. 0 if no recursion
+`recursion_detect.depth()` |return recursion depth. 0 if no recursion
 
 #### Examples
 ```python
@@ -30,4 +34,6 @@ function|description
 4
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
