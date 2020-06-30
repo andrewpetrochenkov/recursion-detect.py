@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+__all__ = ['depth']
+
+
 import inspect
-import public
 
 
-@public.add
 def depth():
     """return recursion depth. 0 if no recursion"""
     counter = 0
